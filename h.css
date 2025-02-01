@@ -1,0 +1,141 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffcccb; /* Light pink background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Menu */
+.menu {
+    background-color: #ff69b4; /* Hot pink */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list-items {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu-list-items a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.menu-list-items a:hover {
+    background-color: #ff1493; /* Deep pink */
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.headings {
+    margin-bottom: 20px;
+}
+
+.greet-heading {
+    font-size: 24px;
+    color: #555;
+}
+
+.my-heading {
+    font-size: 36px;
+    color: blue;
+}
+
+.sub-heading {
+    font-size: 18px;
+    color: #444;
+}
+
+/* Resume Button */
+.ghost-btn {
+    background-color: #ff69b4;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.ghost-btn:hover {
+    background-color: #ff1493;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Contact Section */
+.contact-details {
+    background-color: #fff0f5;
+    padding: 30px;
+    text-align: center;
+}
+
+.details {
+    margin-bottom: 15px;
+}
+
+.contact-heading {
+    font-size: 18px;
+    color: #ff1493;
+    font-weight: bold;
+}
+
+.contact-text {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Footer */
+.footer {
+    background-color: green;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+}
+
+.footer-links {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.footer-links:hover {
+    color: #ff1493;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .menu-list-items {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .about-text, .contact-details {
+        padding: 20px;
+    }
+}
